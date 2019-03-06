@@ -1,0 +1,40 @@
+.friends_section .friends_section-header{
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    padding: 10px 15px;
+    font-size: 12px;
+    color :#b4b4b4;
+}
+
+.friends_section-rows .friends_section-row{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.friends_section-row .with_tagline{
+    justify-content: space-between;
+}
+
+.friends_section-tagline{
+    font-size: 12px;
+    background-color: #f0f0f0;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.friends_section-row img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.friends_section-row a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.friends_section-columnP{
+    display: flex;
+    align-items: center;
+}
