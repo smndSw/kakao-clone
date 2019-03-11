@@ -9,7 +9,7 @@
     <title>More</title>
 </head>
 <body>
-    <header class="top-header">
+    <header class="top-header top-header--transparent">
         <div class="header_top">
             <div class="header_column">
                 <i class="fa fa-fighter-jet"></i>
@@ -40,24 +40,29 @@
     </header>
     <main class="profile">
         <header class="profile_header">
-            <img src="images/avatar.jpg" alt="">
-            <h3 class="profile_header-title">Nicolas</h3>
+            <div class="profile_header-container">
+                <img src="images/avatar.jpg" alt="">
+                <h3 class="profile_header-title">Nicolas</h3>
+            </div>
         </header>
-        <input type="text" placeholder="itnico.las.me@gmail.com">
-        <div class="profile_actions">
-            <div class="profile_action">
-                <span class="profile_action-circle">
-                  <i class="fa fa-comment fa-2x"></i>
-                </span>
-                <span class="profile_action-title">My chatroom</span>
-            </div>
-            <div class="profile_action">
-                <span class="profile_action-circle">
-                  <i class="fa fa-pencil fa-2x"></i>
-                </span>
-                <span class="profile_action-title">Edit Profile</span>
-            </div>
+        <div class="profile_container">
+                <input type="text" placeholder="itnico.las.me@gmail.com">
+                <div class="profile_actions">
+                    <div class="profile_action">
+                        <span class="profile_action-circle">
+                          <i class="fa fa-comment fa-2x"></i>
+                        </span>
+                        <span class="profile_action-title">My chatroom</span>
+                    </div>
+                    <div class="profile_action">
+                        <span class="profile_action-circle">
+                          <i class="fa fa-pencil fa-2x"></i>
+                        </span>
+                        <span class="profile_action-title">Edit Profile</span>
+                    </div>
+                </div>
         </div>
+        
     </main>
 </body>
 </html>
